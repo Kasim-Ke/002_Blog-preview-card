@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@500;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  color: Black hsl(0, 0%, 7%);
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid black;
+  box-shadow: 18px 18px 0px black;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: (0.97);
+}
+.main-img {
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  width: 80px;
+  height: 25px;
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.h2-color:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.discription {
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-right: 70px;
+}
+
+.footer-img {
+  margin-top: 15px;
+  width: 35px;
+  height: auto;
+  float: left;
+}
+
+.name {
+  display: flex;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-left: 50px;
+  align-self: center;
+  justify-self: center;
+}
